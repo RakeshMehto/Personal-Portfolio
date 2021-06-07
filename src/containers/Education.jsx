@@ -1,4 +1,7 @@
+
 import React from 'react';
+
+import {Bounce } from 'react-reveal';
 import EdutionCard from "../components/EdutionCard";
 import { educationInfo } from "../portfolio";
 import {
@@ -7,9 +10,11 @@ import {
     Col
 } from "reactstrap";
 
+
 const Edution = () => {
-    return ( 
-        <section className="section pb-0 bg-gradient-info my-5">
+    return (
+
+        <section className="section pb-5 bg-gradient-info my-5">
             <Container>
                 <div className="d-flex px-3">
                     <div>
@@ -21,6 +26,7 @@ const Edution = () => {
                         <h4 className="display-3 text-white">Education</h4>
                     </div>
                 </div>
+                <Bounce bottom cascade>
                 <Row className="row-grid align-items-center">
                     {
                         educationInfo.map(info => {
@@ -28,6 +34,7 @@ const Edution = () => {
                         })
                     }
                 </Row>
+                </Bounce>
             </Container>
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg
@@ -47,5 +54,5 @@ const Edution = () => {
           </section>
      );
 }
- 
+
 export default Edution;

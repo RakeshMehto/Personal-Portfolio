@@ -10,7 +10,7 @@ import {
 import { Fade } from 'react-reveal';
 
 const ProjectsCard = ({data}) => {
-    return ( 
+    return (
         <Col lg="6">
         <Fade bottom duration={1000} distance="40px">
             <Card className="shadow-lg--hover shadow mt-4">
@@ -24,18 +24,18 @@ const ProjectsCard = ({data}) => {
                         {data.desc}
                     </p>
                     {
-                        data.link ? 
+                        data.link ?
                         <Button
                             className="btn-neutral btn-icon"
                             color="primary"
                             href={data.link.url}
-                            target="_blank"
+
                             >
                             <span className="btn-inner--icon">
                                 <i className="fa fa-arrow-right mr-2" />
                             </span>
                             <span className="nav-link-inner--text ml-1">
-                                {data.link.name} 
+                                {data.link.name}
                             </span>
                         </Button> : null
                     }
@@ -47,5 +47,5 @@ const ProjectsCard = ({data}) => {
         </Col>
      );
 }
- 
+
 export default ProjectsCard;

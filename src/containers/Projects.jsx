@@ -9,7 +9,7 @@ import ProjectsCard from "../components/ProjectsCard";
 import { Fade } from 'react-reveal';
 
 const Projects = () => {
-    return ( 
+    return (
         <section className="section section-lg">
             <Container>
               <Fade bottom duration={1000} distance="40px">
@@ -35,5 +35,5 @@ const Projects = () => {
           </section>
      );
 }
- 
+
 export default Projects;

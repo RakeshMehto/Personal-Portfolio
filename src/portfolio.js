@@ -6,8 +6,9 @@ import airbnb from "./assets/img/icons/common/airbnbLogo.png";
 
 export const greetings = {
   name: "Rakesh Mehto",
-  title: "Hi all, I'm Rakesh",
-  description: "",
+  title: "Hi all, I'm Rakesh Mehto",
+  description:
+    "I am Compuetr Science Student wanted to contribute my knowledge and skills to Organization with continuous learning and teamwork",
   resumeLink:
     "https://drive.google.com/file/d/1rbRn35bqmCVidm2AFBJXqrCLj9u5Fvpa/view?usp=sharing",
 };
@@ -57,10 +58,6 @@ export const skillsSection = {
       fontAwesomeClassname: "logos:javascript",
     },
     {
-      skillName: "TypeScript",
-      fontAwesomeClassname: "logos:typescript-icon",
-    },
-    {
       skillName: "reactjs",
       fontAwesomeClassname: "vscode-icons:file-type-reactjs",
     },
@@ -68,34 +65,12 @@ export const skillsSection = {
       skillName: "nodejs",
       fontAwesomeClassname: "logos:nodejs-icon",
     },
-    {
-      skillName: "flutter",
-      fontAwesomeClassname: "logos:flutter",
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "vscode-icons:file-type-swift",
-    },
+
     {
       skillName: "npm",
       fontAwesomeClassname: "vscode-icons:file-type-npm",
     },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "vscode-icons:file-type-sql",
-    },
-    {
-      skillName: "mongoDB",
-      fontAwesomeClassname: "vscode-icons:file-type-mongo",
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "logos:aws",
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "logos:firebase",
-    },
+
     {
       skillName: "python",
       fontAwesomeClassname: "logos:python",
@@ -104,55 +79,50 @@ export const skillsSection = {
       skillName: "git",
       fontAwesomeClassname: "logos:git-icon",
     },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "logos:docker-icon",
-    },
   ],
 };
 
 export const SkillBars = [
   {
     Stack: "Frontend/Design", //Insert stack or technology you have experience in
-    progressPercentage: "90", //Insert relative proficiency in percentage
+    progressPercentage: "60", //Insert relative proficiency in percentage
   },
   {
-    Stack: "Backend",
-    progressPercentage: "70",
+    Stack: "Data Structure & Algorithms",
+    progressPercentage: "40",
   },
   {
-    Stack: "Programming",
-    progressPercentage: "60",
+    Stack: "Problem Solving",
+    progressPercentage: "30",
   },
 ];
 
 export const educationInfo = [
   {
-    schoolName: "Harvard University",
-    subHeader: "Master of Science in Computer Science",
-    duration: "September 2017 - April 2019",
-    desc: "Participated in the research of XXX and published 3 papers.",
+    schoolName: "Indian Institute of Technology, Madras",
+    subHeader: "Bachelor of Science in Programming and Data Science",
+    duration: "September 2020 - ongoing",
+    desc: "first Online Degree Programme of India started by IIT Madras",
     descBullets: [
-      "Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Studying subjects like Statistics, Machine Learning, Computational Thinking and Python",
+      "Scored 7 GPA in First Term",
     ],
   },
   {
-    schoolName: "Harvard",
-    subHeader: "Master of Science in Computer Science",
-    duration: "September 2017 - April 2019",
-    desc: "Participated in the research of XXX and published 3 papers.",
+    schoolName: "ABES Institute of Technology",
+    subHeader: "Bachelor of Technology in Computer Science",
+    duration: "September 2020 - ongoing",
+    desc: "Abdul Kalam Technical University",
     descBullets: [
-      "Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Due to Online Semesters, not participated in any Extra-Curriculars",
     ],
   },
   {
-    schoolName: "Stanford University",
-    subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2013 - April 2017",
-    desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-    descBullets: ["Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit"],
+    schoolName: "Government Polytechnic, Ghaziabad",
+    subHeader: "Diploma in Information Technology",
+    duration: "September 2017 - July 2020",
+    desc: "gave an edge to my Basics and fundamentals of Computer Science",
+    descBullets: ["Completed Diploma with and overall percentage of 76.9"],
   },
 ];
 
@@ -186,19 +156,19 @@ export const experience = [
 
 export const projects = [
   {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    name: "Restaurant Website",
+    desc: "Design and Developed a simple Responsive website(frontEnd only) • Implemented using HTML, CSS, BootStrap",
   },
   {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    name: "Bouncy Ball Game",
+    desc: "Developed a simple Chrome Dino based Game • Implemented using Python • Used pyGame module",
   },
   {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    name: "EvolvFit",
+    desc: "Design and Developed a React & Redux website • Implemented using JSX, CSS, BootStrap • Contains loginPage, userPage and adminPage",
     link: {
-      name: "Rakesh",
-      url: "kasjfklsdjf",
+      name: "visit",
+      url: "https://rakeshmehto.github.io/home",
     },
   },
 ];

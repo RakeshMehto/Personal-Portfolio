@@ -20,7 +20,7 @@ const Greetings = () => {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
   })
-  return ( 
+  return (
     <Fade top duration={1000} distance="40px">
         <main ref="main">
           <div className="position-relative">
@@ -39,10 +39,12 @@ const Greetings = () => {
               <Container className="py-lg-md d-flex">
                 <div className="col px-0">
                   <Row>
-                    <Col lg="6">
+                    <Col lg="6" className="mt-7">
+
                       <h1 className="display-3 text-white">
                         {greetings.title + " "}
                       </h1>
+
                       <p className="lead text-white">{greetings.description}</p>
                       <SocialLinks />
                       <div className="btn-wrapper my-4">
@@ -89,5 +91,5 @@ const Greetings = () => {
         </Fade>
    );
 }
- 
+
 export default Greetings;
