@@ -6,9 +6,9 @@ import airbnb from "./assets/img/icons/common/airbnbLogo.png";
 
 export const greetings = {
   name: "Rakesh Mehto",
-  title: "Hi all, I'm Rakesh Mehto",
+  title: "Hi everyone, I'm Rakesh Mehto",
   description:
-    "I am Compuetr Science Student wanted to contribute my knowledge and skills to Organization with continuous learning and teamwork",
+    "A Compuetr Science Student wanted to contribute my knowledge and skills to Organization with continuous learning and teamwork",
   resumeLink:
     "https://drive.google.com/file/d/1rbRn35bqmCVidm2AFBJXqrCLj9u5Fvpa/view?usp=sharing",
 };
@@ -20,27 +20,33 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-  facebook: "https://www.facebook.com/Rakesh100",
-  instagram: "https://www.instagram.com/1Rakesh100",
-  twitter: "https://twitter.com/1Rakesh100",
+  facebook: "https://www.facebook.com/rakesh.mehto.5680/",
+  instagram: "https://www.instagram.com/rakesh__mehto__/",
+  twitter: "https://mobile.twitter.com/RakeshMehto10",
   github: "https://github.com/RakeshMehto",
   linkedin: "https://www.linkedin.com/in/RakeshMehto/",
 };
 
 export const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "CRAZY PROGRAMMING AND DATA SCIENCE ENTHUSIAST WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Identifying a problem, developing an algorithm for the identified problem and finally implementing the algorithm to develop a computer program"
     ),
+    emoji("⚡ Always curious to know 'How things work?'"),
+    emoji("⚡ ability to Learn new things efficiently"),
   ],
 
   softwareSkills: [
+    {
+      skillName: "java",
+      fontAwesomeClassname: "logos:java",
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "vscode-icons:file-type-html",
