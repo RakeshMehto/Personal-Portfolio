@@ -8,21 +8,22 @@ export const greetings = {
   name: "Rakesh Mehto",
   title: "Hi all, I'm Rakesh",
   description: "",
-  resumeLink: "https://cv.Rakesh.ga",
+  resumeLink:
+    "https://drive.google.com/file/d/1rbRn35bqmCVidm2AFBJXqrCLj9u5Fvpa/view?usp=sharing",
 };
 
 export const openSource = {
-  githubUserName: "1Rakesh100",
+  githubUserName: "RakeshMehto",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-  facebook: "https://www.facebook.com/1Rakesh100",
+  facebook: "https://www.facebook.com/Rakesh100",
   instagram: "https://www.instagram.com/1Rakesh100",
   twitter: "https://twitter.com/1Rakesh100",
-  github: "https://github.com/1Rakesh100",
-  linkedin: "https://www.linkedin.com/in/Rakesh-tauqeer-0869281ba/",
+  github: "https://github.com/RakeshMehto",
+  linkedin: "https://www.linkedin.com/in/RakeshMehto/",
 };
 
 export const skillsSection = {
