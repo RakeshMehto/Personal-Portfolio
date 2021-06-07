@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { greetings } from "../portfolio";
 import code from '../assets/lottie/coding.json';
-
+import "./rubberBand.css"
 
 import { Fade } from 'react-reveal';
 
@@ -39,11 +39,9 @@ const Greetings = () => {
               <Container className="py-lg-md d-flex">
                 <div className="col px-0">
                   <Row>
-                    <Col lg="6" className="mt-7">
+                    <Col lg="6" className="mt-5">
 
-                      <h1 className="display-3 text-white">
-                        {greetings.title + " "}
-                      </h1>
+                      <Row><h1>H</h1><h1>i</h1><h1>,</h1></Row><Row><h1>I</h1><h1>'</h1><h1>m</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h1>R</h1><h1>a</h1><h1>k</h1><h1>e</h1><h1>s</h1><h1>h </h1><h1>,</h1></Row>
 
                       <p className="lead text-white">{greetings.description}</p>
                       <SocialLinks />
