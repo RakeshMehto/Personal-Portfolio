@@ -8,7 +8,7 @@ export const greetings = {
   name: "Rakesh Mehto",
   title: "Hi everyone, I'm Rakesh Mehto",
   description:
-    "A Compuetr Science Student wanted to contribute my knowledge and skills to Organization with continuous learning and teamwork",
+    "A Computer Science Student wanted to contribute my knowledge and skills to Organization with continuous learning and teamwork",
   resumeLink:
     "https://drive.google.com/file/d/1rbRn35bqmCVidm2AFBJXqrCLj9u5Fvpa/view?usp=sharing",
 };
