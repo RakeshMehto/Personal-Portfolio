@@ -10,7 +10,10 @@ h1 {
 }
 
 h1:hover {
-  color: rgb(255, 203, 143);
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   /* animation: rubberBand 5s infinite; */
   animation-name: rubberBand;
 }

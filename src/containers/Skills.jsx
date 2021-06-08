@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import { Bounce } from "react-reveal";
+import { Bounce, RubberBand } from "react-reveal";
 import DisplayLottie from "../components/DisplayLottie";
 import webdev from "../assets/lottie/webdev.json";
 

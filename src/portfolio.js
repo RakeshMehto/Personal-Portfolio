@@ -8,7 +8,7 @@ export const greetings = {
   name: "Rakesh Mehto",
   title: "Hi everyone, I'm Rakesh Mehto",
   description:
-    "A Computer Science Student wanted to contribute my knowledge and skills to Organization with continuous learning and teamwork",
+    "A Computer Science Student wanted to contribute knowledge and skills to Organization with continuous learning and teamwork",
   resumeLink:
     "https://drive.google.com/file/d/1rbRn35bqmCVidm2AFBJXqrCLj9u5Fvpa/view?usp=sharing",
 };
@@ -30,7 +30,7 @@ export const socialLinks = {
 export const skillsSection = {
   title: "What I do",
   subTitle:
-    "CRAZY PROGRAMMING AND DATA SCIENCE ENTHUSIAST WHO WANTS TO EXPLORE EVERY TECH STACK",
+    "PROGRAMMING AND DATA SCIENCE ENTHUSIAST WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
