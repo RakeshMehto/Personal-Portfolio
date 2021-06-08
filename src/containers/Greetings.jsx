@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { greetings } from "../portfolio";
 import code from "../assets/lottie/coding.json";
 import "./rubberBand.css";
-
+import Typed from "react-typed";
 import { Fade } from "react-reveal";
 
 import { Button, Container, Row, Col } from "reactstrap";
@@ -43,14 +43,27 @@ const Greetings = () => {
                     <Row>
                       <h1>I</h1>
                       <h1>'</h1>
-                      <h1>m</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h1>R</h1>
+                      <h1>m</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <h1>R</h1>
                       <h1>a</h1>
                       <h1>k</h1>
                       <h1>e</h1>
                       <h1>s</h1>
                       <h1>h </h1>
                     </Row>
-                    <p className="lead text-white">{greetings.description}</p>
+                    <p className="lead text-white font-weight-bold">
+                      <Typed
+                        typeSpeed={30}
+                        backSpeed={40}
+                        loop
+                        strings={[
+                          "A Computer Science Student",
+                          "A Data Science student",
+                          "A Frontend Developer",
+                          "A Competitive Programmer",
+                        ]}
+                      ></Typed>
+                    </p>
                     <SocialLinks />
                     <div className="btn-wrapper my-4">
                       <Button
