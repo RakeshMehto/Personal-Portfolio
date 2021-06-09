@@ -5,8 +5,8 @@ import { Bounce } from "react-reveal";
 
 const EdutionCard = ({ education }) => {
   return (
-    <Bounce bottom cascade opposite>
-      <Card className="card-lift--hover shadow mt-4">
+    <Bounce bottom cascade>
+      <Card className="card-lift--hover shadow mb-4">
         <CardBody>
           <div className="d-flex px-3">
             <div className="pl-4">
