@@ -11,7 +11,7 @@ import GreetingLottie from "../components/DisplayLottie";
 const Proficiency = () => {
   return (
     <Container className="section section-lg">
-      <Bounce bottom cascade>
+      <Bounce right cascade>
         <Row>
           <Col lg="6">
             <h1 className="h1">Proficiency</h1>

@@ -53,8 +53,8 @@ const Greetings = () => {
                     </Row>
                     <p className="lead text-white font-weight-bold">
                       <Typed
-                        typeSpeed={30}
-                        backSpeed={40}
+                        typeSpeed={40}
+                        backSpeed={50}
                         loop
                         strings={[
                           "A Computer Science Student",
